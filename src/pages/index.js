@@ -71,7 +71,7 @@ export default function Home() {
             Philip Zimbardo (1933-) was an American psychologist and professor
             who worked at Stanford University. He became well-known for the
             experiment he set up - Zimbardo et. al., which later came about to
-            be the Stanford Prison Experiment.
+            be the Stanford Prison Experiment. His experiment raised lots of ethical concerns regard
           </p>
         </div>
       </main>

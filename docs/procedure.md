@@ -59,3 +59,5 @@ The guards had to:
 
 - Location: Stamford Basement
 - Duration: 14 days
+- Each prisoner and guard would be interviewed regularly to ensure their psychological health is stable.
+- There were a total of 16 rules, and 3 guards working each shift.

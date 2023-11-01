@@ -1,0 +1,45 @@
+.homePage {
+  width: 100vw;
+  height: 150vh;
+}
+
+.homePage1 {
+  width: 100vw;
+  height: 70vh;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage1Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+
+  filter: brightness(0.5);
+
+
+  background-image: url("../../static/img/home_page_img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.homePage1Header {
+  font-size: 4rem;
+  color: white;
+  z-index: 3;
+}
+
+.homePage1SubHeader {
+  font-size: 2rem;
+  color: white;
+  z-index: 3;
+}

@@ -1,6 +1,5 @@
 .homePage {
   width: 100vw;
-  height: 150vh;
 }
 
 .homePage1 {
@@ -26,7 +25,6 @@
 
   filter: brightness(0.5);
 
-
   background-image: url("../../static/img/home_page_img.jpg");
   background-size: cover;
   background-position: center;
@@ -42,4 +40,24 @@
   font-size: 2rem;
   color: white;
   z-index: 3;
+}
+
+.homePage2 {
+  width: 100vw;
+  height: 90vh;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage2Header {
+  padding: 5vh;
+}
+
+.homePage2Description {
+  width: 80vw;
 }

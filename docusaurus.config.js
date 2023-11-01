@@ -76,28 +76,31 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Pages",
             items: [
               {
-                label: "APRC",
+                label: "Home",
+                to: "/",
+              },
+              {
+                label: "Aim",
                 to: "/docs/aim",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Procedure",
+                to: "/docs/procedure",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Results",
+                to: "/docs/results",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Conclusion",
+                to: "/docs/conclusion",
+              },
+              {
+                label: "Evaluation",
+                to: "/docs/evaluation",
               },
             ],
           },
@@ -105,17 +108,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "View the source code",
+                href: "https://github.com/SuspenseFallback/zimbardo-experiment",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `No copyright!`,
       },
       prism: {
         theme: prismThemes.github,

@@ -68,8 +68,12 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "APRC + Evaluation",
+            label: "Aim",
           },
+          { label: "Procedure", to: "docs/procedure" },
+          { label: "Results", to: "docs/results" },
+          { label: "Conclusion", to: "docs/conclusion" },
+          { label: "Evaluation", to: "docs/evaluation" },
         ],
       },
       footer: {
